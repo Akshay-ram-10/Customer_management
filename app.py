@@ -507,4 +507,4 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     print(f"\n  ✦  NexaShoe Chat     → http://127.0.0.1:{port}")
     print(f"  ✦  Admin Dashboard   → http://127.0.0.1:{port}/admin-dashboard\n")
-    app.run(debug=True, port=port)
+    app.run(host="0.0.0.0", port=10000)
