@@ -101,11 +101,11 @@ shoecart/
 ---
 
 ## 🧪 Sample Order IDs for Testing
-ORD-1001 → Delivered (8 days ago ❌ return not allowed)
-ORD-1002 → Out for delivery
-ORD-1003 → Shipped
-ORD-1004 → Processing
-ORD-1005 → Shipped
-ORD-1006 → Delivered (3 days ago ✅ return allowed)
-ORD-2001 → Processing
-ORD-2002 → Shipped
+- ORD-1001 → Delivered (8 days ago ❌ return not allowed)
+- ORD-1002 → Out for delivery
+- ORD-1003 → Shipped
+- ORD-1004 → Processing
+- ORD-1005 → Shipped
+- ORD-1006 → Delivered (3 days ago ✅ return allowed)
+- ORD-2001 → Processing
+- ORD-2002 → Shipped
