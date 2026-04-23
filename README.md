@@ -1,6 +1,6 @@
 # Customer_management
 
-# 👟 ShoeCart – Customer Management & Hybrid Chatbot System
+# 👟 NexaShoe – Customer Management & Hybrid Chatbot System
 
 A production-grade customer support platform combining ML-based intent detection with a guided option-based chatbot UI.
 
@@ -101,9 +101,11 @@ shoecart/
 ---
 
 ## 🧪 Sample Order IDs for Testing
-- `ORD001` – In Transit
-- `ORD002` – Out for Delivery  
-- `ORD003` – Delivered (eligible for return)
-- `ORD004` – Processing
-- `ORD005` – Shipped
-- `ORD006` – Delivered (return period expired)
+ORD-1001 → Delivered (8 days ago ❌ return not allowed)
+ORD-1002 → Out for delivery
+ORD-1003 → Shipped
+ORD-1004 → Processing
+ORD-1005 → Shipped
+ORD-1006 → Delivered (3 days ago ✅ return allowed)
+ORD-2001 → Processing
+ORD-2002 → Shipped
