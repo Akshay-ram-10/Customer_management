@@ -22,12 +22,15 @@ Admin dashboard: **http://localhost:5000/admin**
 ```
 shoecart/
 ├── app.py                  # Flask application (routes, flow logic)
-├── catalog.py              # Product catalog & constants
 ├── requirements.txt
 ├── ml/
-│   └── intent_model.py     # ML: CountVectorizer + MultinomialNB + sentiment
-├── database/
-│   └── db.py               # SQLite ORM helpers + schema
+│   ├── intent_model.py     # ML: CountVectorizer + MultinomialNB + sentiment
+│   ├── churn.py
+│   ├── clustering.py
+│   ├── sentiment.py
+│   └── insights.py
+├── db/
+│   └── database.py               # SQLite ORM helpers + schema
 └── templates/
     ├── index.html           # Chat UI
     └── admin.html           # Admin dashboard
